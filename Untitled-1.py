@@ -1,1 +1,1 @@
-print ("this is //// double backslash")
+print ("mimo is a developer")
