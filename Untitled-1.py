@@ -1,1 +1,0 @@
-print ("mimo is a developer")
