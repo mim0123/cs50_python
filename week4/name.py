@@ -16,8 +16,6 @@ try:
 except IndexError:
     print("Too few arguments")
 
-
-
 # Another way
 import sys
 if len(sys.argv) < 2:
@@ -26,3 +24,15 @@ elif len(sys.argv) > 2:
     print("Too many arguments")
 else:
     print("Hello my name is", sys.argv[1])
+
+
+# Use of sys.exit
+# To exit the program on the initiated line
+    
+import sys
+if len(sys.argv) < 2:
+    sys.exit("Too few arguments")
+elif len(sys.argv) > 2:
+    sys.exit("Too many arguments")
+
+print("Hello my name is", sys.argv[1])
